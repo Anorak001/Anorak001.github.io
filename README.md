@@ -3,7 +3,6 @@
 
 Welcome to the repository for my personal website, hosted using GitHub Pages. This is a personal website designed to present my projects, blog posts, and other relevant information.
 
-The site is built using the Chirpy Jekyll theme, which is a clean and customizable theme suitable for personal blogs and portfolios.
 
 ## License:
 
