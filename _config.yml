@@ -150,7 +150,8 @@ pwa:
 paginate: 10
 
 # The base URL of your site
-baseurl: ""
+baseurl: "/Shogun-sama"
+
 
 # ------------ The following options are not recommended to be modified ------------------
 
