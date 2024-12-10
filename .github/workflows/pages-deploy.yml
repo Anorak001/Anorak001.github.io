@@ -50,7 +50,7 @@ jobs:
 
       - name: Test repository root
         run: |
-          bundle exec htmlproofer . \
+          bundle exec htmlproofer _site \
             --disable-external \
             --allow-hash-href \
             --ignore-urls "/^http:\/\/127.0.0.1/,/^http:\/\/0.0.0.0/,/^http:\/\/localhost/,/^\/assets\/lib\/dayjs\/plugin\/relativeTime\.js/"
