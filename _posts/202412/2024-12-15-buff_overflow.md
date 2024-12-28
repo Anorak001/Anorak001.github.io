@@ -6,7 +6,7 @@ author: anorak
 date: 2024-12-15 00:30:00 +0530
 categories: [GUIDE,CYBERSECURITY]
 tags: [Cybersecurity]
-pin: true
+pin: false
 ---
 # Buffer Overflow
 
