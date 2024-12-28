@@ -6,7 +6,7 @@ author: anorak
 date: 2024-12-08 00:30:00 +0530
 categories: [GUIDE,CYBERSECURITY]
 tags: [Cybersecurity,malware]
-pin: true
+pin: false
 ---
 
 Virtualization/Sandbox Evasion is a technique utilized by adversaries as a part of their defense evasion strategy to detect and avoid virtualization and analysis environments, such as malware analysis sandboxes.  If the malware detects a virtual machine or sandbox environment, it disengages from the victim or does not perform malicious functions, such as downloading the additional payload.
