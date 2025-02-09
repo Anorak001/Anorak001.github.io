@@ -6,7 +6,7 @@ author: anorak
 date: 2024-10-13 00:30:00 +0530
 categories: [GUIDE,CYBERSECURITY]
 tags: [malware]
-pin: true
+pin: false
 ---
 
 ![img](/assets/img/202410/Latrodectus-Malware.webp){: width="600" height="600" .center}
