@@ -25,7 +25,7 @@ The purpose of ARP is to translate between addresses at the data link layer – 
 
 ARP Poisoning consists of abusing the weaknesses in ARP to corrupt the MAC-to-IP mappings of other devices on the network. Security was not a paramount concern when ARP was introduced in 1982, so the designers of the protocol never included authentication mechanisms to validate ARP messages. Any device on the network can answer an ARP request, whether the original message was intended for it or not. For example, if Computer A “asks” for the MAC address of Computer B, an attacker at Computer C can respond and Computer A would accept this response as authentic. This oversight has made a variety of attacks possible. By leveraging easily available tools, a threat actor can “poison” the ARP cache of other hosts on a local network, filling the ARP cache with inaccurate entries. 
 
-![img](/assets/img/202502/arpp.jpg){: width="1000" height="1000"  .center}
+![img](/assets/img/202502/arpp.jpg){: width="800" height="400"  .center}
 
 ## ARP Poisoning Attack Steps
 
