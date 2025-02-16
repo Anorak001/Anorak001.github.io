@@ -13,7 +13,6 @@ pin: True
 
 ARP Poisoning is a type of cyberattack that abuses weaknesses in the widely used Address Resolution Protocol (ARP) to disrupt, redirect, or spy on network traffic. In this piece, we’ll…
 
-
 ARP Poisoning is a type of cyberattack that abuses weaknesses in the widely used Address Resolution Protocol (ARP) to disrupt, redirect, or spy on network traffic. In this piece, we’ll take a quick look at the need for ARP, the weaknesses that enable ARP Poisoning, and what you can do to keep your organization safe.
 
 ## What is ARP?
