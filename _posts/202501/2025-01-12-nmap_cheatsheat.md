@@ -5,7 +5,7 @@ description: >-
 author: anorak
 date: 2025-01-11 04:30:00 +0530
 categories: [GUIDE,CYBERSECURITY]
-tags: [Cybersecurity]
+tags: [Cybersecurity,Cheatsheet]
 pin: True
 ---
 
