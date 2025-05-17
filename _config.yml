@@ -120,9 +120,9 @@ comments:
   # Giscus options › https://giscus.app
   giscus:
     repo: anorak001/anorak001.github.io
-    repo_id: R_kgDOMeYcUg
+    repo_id: R_kgDONbvlTA
     category: General
-    category_id: DIC_kwDOMeYcUs4Chg0i
+    category_id: DIC_kwDONbvlTM4ClG3F
     mapping: # optional, default to 'pathname'
     strict: # optional, default to '0'
     input_position: 
