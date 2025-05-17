@@ -98,6 +98,11 @@ But, despite the small percentage of the overall Windows install base, the syste
 
 
 
+**Grateful for your time—thank you for reading this blog to the end.**
+
+**пасибо, друг, за то, что читаешь блог.**
+
+
 
 
 

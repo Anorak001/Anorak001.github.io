@@ -201,5 +201,7 @@ pin: false
 
 This initial challenge in the RVCTF Preliminary Round was quite tricky, despite being worth 100 points and straight forward. It proved to be more time consuming than the other challenges in the round.
 
-      
+**Grateful for your time—thank you for reading this blog to the end.**
+
+**пасибо, друг, за то, что читаешь блог.**
 
