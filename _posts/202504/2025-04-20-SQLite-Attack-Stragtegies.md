@@ -4,6 +4,7 @@ description: >-
   Blog on SQLite Essentials and Attack Strategies
 author: anorak
 date: 2025-04-20 04:30:00 +0530
+categories: [GUIDE,CYBERSECURITY]
 tags: [Cybersecurity, Database, SQLite, Vulnerabilities, Penetration Testing, Malware, Security]
 pin: True
 ---  
