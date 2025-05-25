@@ -79,8 +79,3 @@ If you suspect your personal information has been compromised through session hi
 ## Conclusion:
 
 Session Hijacking is a growing cyber threat, combining older hijacking techniques with sophisticated new attacks like AiTM, BiTM, and infostealers. These advanced tactics allow cybercriminals to bypass traditional defenses (passwords and MFA), putting both everyone at risk.
-
-**Grateful for your time—thank you for reading this blog to the end.**
-
-**пасибо, друг, за то, что читаешь блог.**
-

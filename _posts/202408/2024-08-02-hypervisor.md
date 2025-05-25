@@ -61,15 +61,6 @@ The Hypervisors are classified on the platform they work upon,they can be classi
 
 
 
-**Grateful for your time—thank you for reading this blog to the end.**
-
-**пасибо, друг, за то, что читаешь блог.**
-
-
-
-
-
-
 
 
 

@@ -183,7 +183,3 @@ In the Post-Connection SYN attack, attackers send a SYN packet during an ongoing
 
 This detailed breakdown covers multiple techniques attackers might use to evade IDS monitoring. Each method exploits specific weaknesses or assumptions within the IDS’s operation, making it challenging to detect and prevent advanced attacks.
 
-**Grateful for your time—thank you for reading this blog to the end.**
-
-**пасибо, друг, за то, что читаешь блог.**
-

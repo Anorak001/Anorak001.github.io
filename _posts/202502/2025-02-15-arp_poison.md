@@ -116,7 +116,3 @@ While encryption won’t actually prevent an ARP attack from occurring, it can m
 
 While it’s been around far longer than modern threats like Ransomware, ARP Poisoning is still a threat that organizations need to address. Like all cyberthreats, it is best addressed through a comprehensive information security program. 
 
-**Grateful for your time—thank you for reading this blog to the end.**
-
-**пасибо, друг, за то, что читаешь блог.**
-

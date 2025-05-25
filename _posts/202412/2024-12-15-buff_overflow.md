@@ -142,7 +142,3 @@ The blind length checks in the `png_crc_read()` call can lead to memory vulnerab
 
 By understanding buffer overflow attacks, their consequences, and prevention techniques, developers can build more secure applications and mitigate risks effectively.
 
-**Grateful for your time—thank you for reading this blog to the end.**
-
-**пасибо, друг, за то, что читаешь блог.**
-

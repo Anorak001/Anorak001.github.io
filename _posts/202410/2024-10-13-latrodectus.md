@@ -63,7 +63,3 @@ Sun Tzu wrote the following over 2000 years ago in his Treatise on ware called �
 
 Latrodectus is no joke when it comes to putting folks, businesses, and organizations at risk. But as Sun Tzu wrote above, know yourself (strengths and weaknesses) and your enemy (attack methods for example)  and you will win the war against hackers. By getting a handle on how to keep Latrodectus at bay, improving your defenses, strengthening your weaknesses, and understanding your enemy, will help. So, keep your guard up, stay ahead of the game, and together, we can keep Latrodectus in check.
 
-**Grateful for your time—thank you for reading this blog to the end.**
-
-**пасибо, друг, за то, что читаешь блог.**
-

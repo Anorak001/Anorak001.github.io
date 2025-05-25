@@ -94,17 +94,7 @@ But, despite the small percentage of the overall Windows install base, the syste
 - Some businesses were able to apply the fix within a few days. However, the process was not straightforward for all, particularly those with extensive IT infrastructure and encrypted drives. The use of the Microsoft Windows BitLocker encryption technology by some organizations made it significantly more time-consuming to recover as BitLocker recovery keys were required.
   
 - It is estimated that it could potentially take months for some organizations to entirely recover all affected systems from the outage.
-  
-
-
-
-**Grateful for your time—thank you for reading this blog to the end.**
-
-**пасибо, друг, за то, что читаешь блог.**
-
-
-
-
+ 
 
 
 

@@ -82,11 +82,6 @@ Hence,By following the above steps, you can configure your very own proxychains 
 - My friends and I are developing a proxy chain automation web app, but we're currently looking for a skilled front-end developer to join our team. If you're interested, please get in touch!
 
 
-**Grateful for your time—thank you for reading this blog to the end.**
-
-**пасибо, друг, за то, что читаешь блог.**
-
-
 
 
 

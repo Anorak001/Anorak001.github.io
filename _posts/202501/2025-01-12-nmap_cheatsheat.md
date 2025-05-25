@@ -205,11 +205,3 @@ pin: True
 
 
 If you find it Useful, Share the link and spread the knowledge
-
-
-**Grateful for your time—thank you for reading this blog to the end.**
-
-**пасибо, друг, за то, что читаешь блог.**
-
-
-

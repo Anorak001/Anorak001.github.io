@@ -137,9 +137,3 @@ https://attack.mitre.org/techniques/T1497/003/.
 
 supply chain exploit to attack hundreds of businesses,” 04-Jul-2021. https://news.sophos.com/en-us/2021/07/04/independence-day-revil-uses- supply-chain-exploit-to-attack-hundreds-of-businesses/.
 
-
-
-**Grateful for your time—thank you for reading this blog to the end.**
-
-**пасибо, друг, за то, что читаешь блог.**
-
