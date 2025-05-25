@@ -5,7 +5,7 @@ description: >-
 author: anorak
 date: 2024-12-01 04:30:00 +0530
 categories: [GUIDE,CYBERSECURITY]
-tags: [Cybersecurity]
+tags: [Cybersecurity, SQL-Injection, Blind-SQLi, Web-Security, Database, Exploitation, Security-Guide]
 pin: false
 ---
 ## What is blind SQL injection? 

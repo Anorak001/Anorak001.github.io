@@ -5,7 +5,7 @@ description: >-
 author: anorak
 date: 2024-11-17 00:10:00 +0530
 categories: [GUIDE,CYBERSECURITY]
-tags: [Cybersecurity]
+tags: [Cybersecurity, SQL, SQL-Injection, Web-Security, Database, Vulnerability, Guide]
 pin: false
 ---
 

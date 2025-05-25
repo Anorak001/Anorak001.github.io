@@ -5,7 +5,7 @@ description: >-
 author: anorak
 date: 2024-12-08 00:30:00 +0530
 categories: [GUIDE,CYBERSECURITY]
-tags: [Cybersecurity,malware]
+tags: [Cybersecurity, malware, MITRE-ATTACK, Defense-Evasion, Virtualization, Sandbox, Threat-Detection]
 pin: false
 ---
 

@@ -5,7 +5,7 @@ description: >-
 author: anorak
 date: 2025-05-25 04:30:00 +0530
 categories: [GUIDE,CYBERSECURITY]
-tags: [Cybersecurity,Privilege-Escalation]
+tags: [Cybersecurity, Privilege-Escalation, Linux, Security, Penetration-Testing, Access-Control, Vulnerability, Sudo, Enumeration]
 pin: True 
 ---
 

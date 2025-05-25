@@ -5,7 +5,7 @@ description: >-
 author: anorak
 date: 2025-01-04 04:30:00 +0530
 categories: [GUIDE,CYBERSECURITY]
-tags: [Cybersecurity]
+tags: [Cybersecurity, Networking, Reconnaissance, Ethical-Hacking, Penetration-Testing, Network-Security, Tools]
 pin: false
 ---
 

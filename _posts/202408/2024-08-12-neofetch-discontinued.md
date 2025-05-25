@@ -5,7 +5,7 @@ description: >-
 author: anorak
 date: 2024-08-12 04:55:00 +0530
 categories: [GUIDE,LINUX]
-tags: [Linux]
+tags: [Linux, Neofetch, Open Source, CLI, System Information, Alternatives, Software Discontinuation]
 pin: false
 ---
 

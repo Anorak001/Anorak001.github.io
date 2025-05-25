@@ -5,7 +5,7 @@ description: >-
 author: anorak
 date: 2025-03-29 04:30:00 +0530
 categories: [GUIDE,CYBERSECURITY]
-tags: [Cybersecurity,Metasploit]
+tags: [Cybersecurity, Metasploit, Penetration Testing, Ethical Hacking, Security Tools, Vulnerability Assessment, Kali Linux]
 pin: false
 ---
 

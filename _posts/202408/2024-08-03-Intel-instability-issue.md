@@ -5,7 +5,7 @@ description: >-
 author: anorak
 date: 2024-08-01 23:55:00 +0530
 categories: [NEWS,BUG]
-tags: [Serious Issue]
+tags: [Serious Issue, Intel, CPU, Instability, Microcode, Hardware, News]
 pin: false
 ---
 

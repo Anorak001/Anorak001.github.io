@@ -5,7 +5,7 @@ description: >-
 author: anorak
 date: 2024-08-09 04:55:00 +0530
 categories: [NEWS,ISSUE]
-tags: [Cybersecurity,malware]
+tags: [Cybersecurity, malware, GitHub, Supply Chain Attack, Security, Python, Threat Intelligence]
 pin: false
 ---
 

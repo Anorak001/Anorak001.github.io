@@ -5,7 +5,7 @@ description: >-
 author: anorak
 date: 2024-10-19 00:30:00 +0530
 categories: [GUIDE,LINUX]
-tags: [Linux]
+tags: [Linux, Logging, journalctl, Systemd, Security, Sysadmin, Red Team]
 pin: true
 ---
 

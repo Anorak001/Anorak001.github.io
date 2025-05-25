@@ -5,7 +5,7 @@ description: >-
 author: anorak
 date: 2025-03-01 04:30:00 +0530
 categories: [NEWS,HACK]
-tags: [Incident Analysis,Cybersecurity]
+tags: [Incident Analysis, Cybersecurity, Bybit, Hack, Web3, Phishing, Smart Contract, Gnosis Safe]
 pin: True
 ---
 

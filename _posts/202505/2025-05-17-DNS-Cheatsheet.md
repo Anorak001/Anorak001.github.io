@@ -5,7 +5,7 @@ description: >-
 author: anorak
 date: 2025-05-17 04:30:00 +0530
 categories: [GUIDE,CYBERSECURITY]
-tags: [Cybersecurity,Cheatsheet]
+tags: [Cybersecurity, Cheatsheet, DNS, Networking, Enumeration, Penetration Testing, Tools]
 pin: False
 ---
 # DNS Enumaration

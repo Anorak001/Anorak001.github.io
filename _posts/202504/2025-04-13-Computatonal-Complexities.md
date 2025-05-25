@@ -5,7 +5,7 @@ description: >-
 author: anorak
 date: 2025-04-13 04:30:00 +0530
 categories: [GUIDE, COMPUTER-SCIENCE]
-tags: [Algorithms,CS]
+tags: [Algorithms, CS, Complexity-Theory, P-vs-NP, NP-Complete, Turing-Machine, Computer-Science]
 pin: False
 ---  
 

@@ -5,7 +5,7 @@ description: >-
 author: anorak
 date: 2024-08-17 19:55:10 +0530
 categories: [GUIDE,CYBERSECURITY]
-tags: [Cybersecurity]
+tags: [Cybersecurity, EDR, Evasion, Malware, Windows, Threat-Detection, Security]
 pin: false
 ---
  EDR Evasion is a tactic widely employed by threat actors to bypass some of the most common endpoint defenses deployed by organizations. A recent study found that nearly all EDR solutions are vulnerable to at least one EDR evasion technique. In this blog, we’ll dive into 5 of the most common, newest, and threatening EDR evasion techniques as well as how you can counter them. 

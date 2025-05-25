@@ -5,7 +5,7 @@ description: >-
 author: anorak
 date: 2024-09-21 04:30:00 +0530
 categories: [GUIDE,GENERAL]
-tags: [Database]
+tags: [Database, SQLite, Security, Vulnerabilities, Cybersecurity, Embedded, Forensics]
 pin: false
 ---
 Welcome back!

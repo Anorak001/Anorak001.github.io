@@ -5,7 +5,7 @@ description: >-
 author: anorak
 date: 2024-11-10 00:10:00 +0530
 categories: [GUIDE,CYBERSECURITY]
-tags: [Cybersecurity]
+tags: [Cybersecurity, XSS, Web Security, JavaScript, Vulnerabilities, DOM, OWASP]
 pin: false
 ---
 

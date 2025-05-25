@@ -5,7 +5,7 @@ description: >-
 author: anorak
 date: 2024-10-26 00:30:00 +0530
 categories: [GUIDE,CYBERSECURITY]
-tags: [Serious Issue]
+tags: [VPN, Security, Vulnerabilities, Cybersecurity, CVE, Remote Access, Network Security, Serious Issue]
 pin: false
 ---
 

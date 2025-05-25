@@ -5,7 +5,7 @@ description: >-
 author: anorak
 date: 2025-02-08 04:30:00 +0530
 categories: [GUIDE,CYBERSECURITY]
-tags: [Cybersecurity,techniques]
+tags: [Cybersecurity, techniques, Active Directory, LLMNR, NBT-NS, Windows Security, Network Attacks]
 pin: False
 ---
 

@@ -5,7 +5,7 @@ description: >-
 author: anorak
 date: 2025-02-15 04:30:00 +0530
 categories: [GUIDE,CYBERSECURITY]
-tags: [Cybersecurity,techniques]
+tags: [Cybersecurity, ARP, Network Security, Attacks, Prevention, Man-in-the-Middle, DoS]
 pin: False
 ---
 

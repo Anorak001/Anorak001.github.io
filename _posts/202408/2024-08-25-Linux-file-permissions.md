@@ -5,7 +5,7 @@ description: >-
 author: anorak
 date: 2024-08-25 01:50:00 +0530
 categories: [GUIDE,LINUX]
-tags: [Linux Administration, Cybersecurity]
+tags: [Linux Administration, Cybersecurity, File Permissions, chmod, chown, System Security, User Management, Linux Basics]
 pin: true
 ---
 

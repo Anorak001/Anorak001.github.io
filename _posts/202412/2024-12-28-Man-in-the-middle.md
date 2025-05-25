@@ -5,7 +5,7 @@ description: >-
 author: anorak
 date: 2024-12-28 23:59:59 +0530
 categories: [GUIDE,CYBERSECURITY]
-tags: [Cybersecurity,techniques]
+tags: [Cybersecurity, mitm, attacks, security, guide, prevention, mobile-security]
 pin: false
 --- 
 

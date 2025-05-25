@@ -5,7 +5,7 @@ description: >-
 author: anorak
 date: 2025-03-22 04:30:00 +0530
 categories: [GENERAL]
-tags: [Cybersecurity]
+tags: [Cybersecurity, Careers, Security-Operations, Threat-Intelligence, Incident-Response, Cloud-Security, Digital-Forensics]
 pin: False
 ---
 

@@ -5,7 +5,7 @@ description: >-
 author: anorak
 date: 2024-10-06 14:30:00 +0530
 categories: [GUIDE,CYBERSECURITY]
-tags: [Cybersecurity]
+tags: [Cybersecurity, SessionHijacking, Phishing, AiTM, BiTM, Infostealer, OnlineSecurity]
 pin: false
 ---
 According to the Verizon Data Breach report from 2023, over the past 25 years one hacker threat has remained the number one attack vector – phishing.  Phishing is ubiquitous and deadly.  Phishing attacks today are more impactful, sophisticated, and frequent than ever before in history.  Recent developments in hacker techniques have made phishing emails even more effective through the use of session token theft, aka Session Hijacking.  This is a sophisticated way for attackers to take over your online accounts post authentication (i.e. after you have successfully provided your password and multi-factor authentication).
