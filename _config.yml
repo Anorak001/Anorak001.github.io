@@ -56,6 +56,8 @@ webmaster_verifications:
 
 # ↑ --------------------------
 
+plugins:
+  - jekyll-seo-tag
 
 
 # Web Analytics Settings
