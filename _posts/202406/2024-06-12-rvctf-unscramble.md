@@ -5,7 +5,7 @@ description: >-
 author: anorak
 date: 2024-06-10 00:00:00 +0530
 categories: [GUIDE,CTF_WRITEUP]
-tags: [Writeup, Cryptography, Reverse Engineering, Java, Python, Forensics, CTF]
+tags: [Writeup, Cryptography, Reverse Engineering, Python, Forensics, CTF]
 pin: false
 ---
 

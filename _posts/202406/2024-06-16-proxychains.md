@@ -5,7 +5,7 @@ description: >-
 author: anorak
 date: 2024-06-16 00:00:00 +0530
 categories: [GUIDE,LINUX]
-tags: [linux, kali-linux, proxychains, anonymity, privacy, cybersecurity, networking]
+tags: [Linux, Cybersecurity]
 pin: false
 ---
 # Staying Anonymous with ProxyChains in Kali Linux:
