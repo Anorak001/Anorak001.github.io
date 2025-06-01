@@ -1,7 +1,7 @@
 ---
 # the default layout is 'page'
 icon: fas fa-info-circle
-order: 4
+order: 2
 ---
 Hi there!
 
@@ -12,3 +12,9 @@ I started this blog because I believe that sharing knowledge not only benefits o
 I will strive to post content regularly and keep it as up-to-date as possible. If you encounter any bugs or misinformation, please feel free to report them. I will make corrections promptly.
 
 **Thank you for visiting my blog! If you find the content useful, please share it with others to help spread the knowledge.**
+
+### Support My Work
+
+If you find my projects helpful, please consider sponsoring me on GitHub:
+
+[![Sponsor](https://img.shields.io/badge/Sponsor-🤍-blue?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sponsors/Anorak001)
