@@ -21,5 +21,9 @@
 - type: rss
   icon: "fas fa-rss"
   noblank: true
+  
+- type: github-sponsors
+  icon: "fas fa-heart"
+  url: "https://github.com/sponsors/Anorak001"
 
 
