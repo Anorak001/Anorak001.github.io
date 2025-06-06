@@ -5,7 +5,7 @@ description: >-
 author: anorak
 date: 2024-08-18 00:69:00 +0530
 categories: [GUIDE,LINUX]
-tags: [Linux, Cheatsheet, Commands, Beginners, Terminal, System-Administration, Reference]
+tags: [Linux, Cheatsheet,  Reference]
 pin: true
 ---
 

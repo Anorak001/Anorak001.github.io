@@ -5,7 +5,7 @@ description: >-
 author: anorak
 date: 2024-07-25 00:35:00 +0530
 categories: [NEWS,ISSUE]
-tags: [cybersecurity, outage, windows, crowdstrike, incident-response, endpoint-security, bsod]
+tags: [Cybersecurity, Outage, Windows]
 pin: false
 ---
 What might be considered the **largest IT outage** in history was triggered by a botched software update from security vendor CrowdStrike, affecting millions of Windows systems around the world. Insurers estimate the outage will cost U.S. Fortune 500 companies  **$ 5.4 B**.

@@ -5,7 +5,7 @@ description: >-
 author: anorak
 date: 2025-04-26 04:30:00 +0530
 categories: [GUIDE,CYBERSECURITY]
-tags: [Cybersecurity, Database, Ethical Hacking, Penetration Testing, Web Security, Learning Path, Certifications]
+tags: [Cybersecurity, Database, Ethical Hacking, Penetration Testing, Web Security]
 pin: False
 ---  
 # A Cybersecurity Curriculum for Builders Who Want to Learn to Break

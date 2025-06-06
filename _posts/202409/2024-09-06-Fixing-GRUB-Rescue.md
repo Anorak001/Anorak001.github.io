@@ -5,7 +5,7 @@ description: >-
 author: anorak
 date: 2024-09-06 00:30:00 +0530
 categories: [GUIDE,LINUX]
-tags: [Linux, GRUB, Bootloader, Troubleshooting, Dualboot, Recovery, Guide]
+tags: [Linux,  Guide]
 pin: false
 ---
 

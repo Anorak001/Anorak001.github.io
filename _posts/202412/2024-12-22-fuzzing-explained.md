@@ -5,7 +5,7 @@ description: >-
 author: anorak
 date: 2024-12-22 00:30:00 +0530
 categories: [GUIDE,CYBERSECURITY]
-tags: [Cybersecurity, techniques, fuzzing, security-testing, vulnerability, automation, software-quality]
+tags: [Cybersecurity,  fuzzing, Vulnerabilities, ]
 pin: true
 ---
 # Fuzzing 101

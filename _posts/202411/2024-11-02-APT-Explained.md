@@ -5,7 +5,7 @@ description: >-
 author: anorak
 date: 2024-11-02 00:10:00 +0530
 categories: [GUIDE,CYBERSECURITY]
-tags: [Cybersecurity, APT, Threat-Intelligence, Network-Security, Data-Exfiltration, Attack-Vectors, Incident-Response]
+tags: [Cybersecurity, APT, Network Security]
 pin: false
 ---
 

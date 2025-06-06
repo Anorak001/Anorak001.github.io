@@ -5,7 +5,7 @@ description: >-
 author: anorak
 date: 2025-01-25 04:30:00 +0530
 categories: [GUIDE,CYBERSECURITY]
-tags: [Cybersecurity, OS-Hardening, Security, Best Practices, Compliance, Windows, Linux, MacOS]
+tags: [Cybersecurity,  Security, Best Practices, Windows, Linux, MacOS]
 pin: false
 ---
 

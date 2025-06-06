@@ -5,7 +5,7 @@ description: >-
 author: anorak
 date: 2025-02-22 04:30:00 +0530
 categories: [GUIDE,CYBERSECURITY]
-tags: [Cybersecurity, Tool, Proxy, Automation, Privacy, Linux, OpenSource]
+tags: [Cybersecurity, Privacy, Linux]
 pin: True
 ---
 

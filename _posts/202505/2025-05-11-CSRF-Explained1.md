@@ -5,7 +5,7 @@ description: >-
 author: anorak
 date: 2025-05-11 04:30:00 +0530
 categories: [GUIDE,CYBERSECURITY]
-tags: [Cybersecurity, Vulnerability, Bounty Guide, CSRF, Web Security, Penetration Testing, Application Security]
+tags: [Cybersecurity, Vulnerability, Web Security, Penetration Testing, Application Security]
 pin: False
 ---
 

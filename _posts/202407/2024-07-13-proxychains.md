@@ -3,7 +3,7 @@ title: Stay Anonymous by using Proxychains in KaliLinux
 description: >-
  A detailed tutorial on how to configure the proxychains in Kali Linux
 author: anorak
-date: 2024-06-16 00:00:00 +0530
+date: 2024-07-13 00:00:00 +0530
 categories: [GUIDE,LINUX]
 tags: [Linux, Cybersecurity]
 pin: false

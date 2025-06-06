@@ -5,7 +5,7 @@ description: >-
 author: anorak
 date: 2024-09-05 00:30:00 +0530
 categories: [GUIDE,CYBERSECURITY]
-tags: [Network Security, Nmap, Zenmap, Linux, Debian, Installation, Cybersecurity]
+tags: [Network Security,  Linux,  Cybersecurity]
 pin: false
 ---
 

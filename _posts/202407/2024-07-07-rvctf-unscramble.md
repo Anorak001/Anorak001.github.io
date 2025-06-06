@@ -3,9 +3,9 @@ title: A Simple Yet Deceptive CTF Challenge
 description: >-
  A writeup for one of the challenge that I had solved at RVCTF-2024
 author: anorak
-date: 2024-06-10 00:00:00 +0530
+date: 2024-07-07 00:00:00 +0530
 categories: [GUIDE,CTF_WRITEUP]
-tags: [Writeup, Cryptography, Reverse Engineering, Python, Forensics, CTF]
+tags: [Writeup, Cryptography, Python, Forensics, CTF]
 pin: false
 ---
 
