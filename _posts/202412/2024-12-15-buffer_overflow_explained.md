@@ -5,7 +5,7 @@ description: >-
 author: anorak
 date: 2024-12-15 00:30:00 +0530
 categories: [GUIDE,CYBERSECURITY]
-tags: [Cybersecurity, Security, Vulnerabilities, Exploits, Programming, C-Language]
+tags: [Cybersecurity, Security, Vulnerabilities,  Programming]
 pin: false
 ---
 # Buffer Overflow

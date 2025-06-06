@@ -5,7 +5,7 @@ description: >-
 author: anorak
 date: 2024-08-02 18:30:00 +0530
 categories: [GUIDE,CYBERSECURITY]
-tags: [Virtualization, Hypervisor, virtual-machines, cloud-computing, Cybersecurity]
+tags: [Virtualization, Hypervisor,  Cybersecurity]
 pin: false
 ---
 

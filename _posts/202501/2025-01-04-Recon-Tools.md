@@ -5,7 +5,7 @@ description: >-
 author: anorak
 date: 2025-01-04 04:30:00 +0530
 categories: [GUIDE,CYBERSECURITY]
-tags: [Cybersecurity, Networking, Reconnaissance, Network Security]
+tags: [Cybersecurity, Networking,  Network Security]
 pin: false
 ---
 
