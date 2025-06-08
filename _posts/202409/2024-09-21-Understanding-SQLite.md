@@ -4,7 +4,7 @@ description: >-
  The Ubiquitous Database that Few Understand
 author: anorak
 date: 2024-09-21 04:30:00 +0530
-categories: [GUIDE,GENERAL]
+categories: [GUIDE,CYBERSECURITY]
 tags: [Database,  Security, Vulnerabilities, Cybersecurity, Forensics]
 pin: false
 ---

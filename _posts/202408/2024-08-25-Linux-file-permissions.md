@@ -6,7 +6,7 @@ author: anorak
 date: 2024-08-25 01:50:00 +0530
 categories: [GUIDE,LINUX]
 tags: [ Cybersecurity,  Security, Linux ]
-pin: true
+pin: false
 ---
 
 File permissions are core to the security model used by Linux systems. They determine who can access files and directories on a system and how. This article provides an overview of Linux file permissions, how they work, and how to change them.

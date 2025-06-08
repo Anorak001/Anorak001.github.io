@@ -6,7 +6,7 @@ author: anorak
 date: 2024-10-19 00:30:00 +0530
 categories: [GUIDE,LINUX]
 tags: [Linux,  Security]
-pin: true
+pin: false
 ---
 
 One of the most overlooked areas on the Linux operating system is the logging system. If you are a system administrator or security engineer, this is where all the information you will need resides to determine the problems with your operating system, including who, what and why of your intrusion. If you are a penetration tester/hacker, this is where the evidence of your intrusion resides. As the best hack is the one that no one is aware of, it becomes critical to remove any trace of your presence from the log files. To do so, you first need to understand the logging system. With the adoption of systemd in most Linux distributions, the logging system has changed from syslog. In most cases, your Linux is using journalctl to manage your system logs.
