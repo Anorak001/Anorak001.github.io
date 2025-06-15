@@ -1,4 +1,3 @@
-
 ---
 title: SHA-256 Explained
 description: >-
