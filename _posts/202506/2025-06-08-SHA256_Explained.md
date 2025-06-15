@@ -6,7 +6,7 @@ author: anorak
 date: 2025-06-08 04:30:00 +0530
 categories: [GUIDE, CRYPTOGRAPHY]
 tags: [Cryptography, Security]
-pin: false
+pin: False
 ---
 
 # SHA-256 Explained
