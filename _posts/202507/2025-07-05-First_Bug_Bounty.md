@@ -1,10 +1,10 @@
 ---  
 title: Finding a Missing Subresource Integrity (SRI) Vulnerability  
 description: >-
-    How I found missing SRI using just curl, why this simple check matters for web application security, and how it led to my first valid bug.
+    How I found missing SRI using just curl and how it led to my first valid bug.
 author: anorak
 date: 2025-07-05 04:30:00 +0530
-categories: [NEWS, ISSUE]
+categories: [NEWS, BUG]
 tags: [Web Security, Subresource Integrity, Bug Bounty, Reconnaissance, Cybersecurity]
 pin: True
 ---   
@@ -14,6 +14,8 @@ pin: True
 ##   Introduction
 
 During a recent reconnaissance session on a web application, I discovered a **Missing Subresource Integrity (SRI)** vulnerability using only the `curl` command and browser inspection tools. While this issue is often considered low-severity or informational, it represents a **misconfiguration** that can have serious consequences if combined with other attack vectors, such as CDN compromise or Man-in-the-Middle (MITM) attacks.
+
+![Valid_Bounty_Image](/assets/img/202507/img1.jpg){: .center}
 
 This post details the technical process I used to identify the issue, explains the risks, and offers recommendations for remediation.
 
@@ -103,7 +105,7 @@ VRT: Server Security Misconfiguration > Missing Subresource Integrity
 
 While often marked as informational, this issue can be chained with other attacks (like CDN compromise or MITM) to escalate risk.
 
- 
+![Valid_Bounty_Image](/assets/img/202507/img2.jpg){: .center} 
 
 ##   Technical Deep Dive
 
@@ -135,7 +137,7 @@ While often marked as informational, this issue can be chained with other attack
 - Consider using tools like [Nuclei](https://github.com/projectdiscovery/nuclei) to automate detection of missing SRI attributes.
 
  
- 
+
 
 ##   Final Thoughts
 
