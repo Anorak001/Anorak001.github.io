@@ -6,7 +6,7 @@ author: anorak
 date: 2025-05-25 04:30:00 +0530
 categories: [GUIDE,CYBERSECURITY]
 tags: [Cybersecurity, Linux, Security, Penetration Testing, Vulnerability]
-pin: True 
+pin: false 
 ---
 
 

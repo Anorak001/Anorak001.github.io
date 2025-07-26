@@ -6,7 +6,7 @@ author: anorak
 date: 2025-04-20 04:30:00 +0530
 categories: [GUIDE,CYBERSECURITY]
 tags: [Cybersecurity, Database, Vulnerabilities,  Malware, Security]
-pin: True
+pin: false
 ---  
 
 Welcome back !
