@@ -1,7 +1,7 @@
 ---    
 title: Communication Models and Network Topologies Explained  
 description: >-
-    A beginner-friendly guide to understanding communication models (OSI, TCP/IP) and network topologies.
+    A beginner-friendly guide to understanding communication models OSI, TCP/IP and network topologies.
 author: anorak
 date: 2025-08-09 04:30:00 +0530
 categories: [GUIDE, COMPUTER NETWORKS]
