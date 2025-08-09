@@ -6,7 +6,7 @@ author: anorak
 date: 2025-08-02 04:30:00 +0530
 categories: [GUIDE, COMPUTER NETWORKS]
 tags: [Networking, CEH, Computer Networks]
-pin: True
+pin: False
 --- 
 
 ## What is IP?
