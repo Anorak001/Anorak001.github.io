@@ -1,10 +1,10 @@
 ---    
-title:  "Lakera Gandalf: Agent Breaker - My Beta Testing Experience Breaking AI Agents" 
+title:  "Lakera Gandalf: Agent Breaker" 
 description: >-
     Firsthand insights from my experience as a Gandalf - Agent Breaker beta tester, uncovering real prompt injection exploits and AI security lessons.
 author: anorak
 date: 2025-08-16 04:30:00 +0530
-categories: [ ]
+categories: [GUIDE, CYBERSECURITY]
 tags: [AI Security, Prompt Injection, Red Teaming, Gandalf, LLM Security]
 pin: True
 ---
