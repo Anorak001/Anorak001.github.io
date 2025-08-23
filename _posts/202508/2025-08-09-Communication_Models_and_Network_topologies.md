@@ -27,9 +27,9 @@ Modern network communication is built upon structured models and topologies that
 - **Definition:** A protocol is a formal set of rules and conventions that define how data is transmitted and received across a network.
 - **Analogy:** Protocols are like social conventions (e.g., handshakes, greetings) that ensure predictable and successful interactions.
 - **Protocol Mismatch:** If two systems use incompatible protocols, communication cannot occur, leading to failures or data loss.
+  
 
-![OSI vs TCP/IP](/assets/img/202508/OSI-vs-TCP.png){: .center}    
-
+![OSI vs TCP/IP](/assets/img/202508/OSI-vs-TCP.png){: .center}  
 ### OSI Model (Open Systems Interconnection)
 
 - **Developed by:** International Organization for Standardization (ISO) in the late 1970s.
