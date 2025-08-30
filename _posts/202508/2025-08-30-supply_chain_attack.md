@@ -36,7 +36,7 @@ The malicious `telemetry.js` script performed several sophisticated actions:
   - The malware programmatically created a new repository named `s1ngularity-repository` in the victim's GitHub account using any discovered tokens.
   - Stolen data was encoded in base64 and uploaded as files to this repository.
   - This method leveraged GitHub's infrastructure for data exfiltration, making detection and takedown more challenging.
-  ![Nx Supply Chain Attack](/assets/img/202508/nx-supply-chain-attack.png){: width="800" height="600" .w-50 .center}
+  ![Nx Supply Chain Attack](/assets/img/202508/nx-supply-chain-attack.png){:   .center}
 
 - **Persistence and System Tampering:**
   - The script appended a command (`sudo shutdown -h 0`) to the user's `.bashrc` or `.zshrc` files.
