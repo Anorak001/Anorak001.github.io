@@ -6,7 +6,7 @@ author: anorak
 date: 2025-08-30 04:30:00 +0530
 categories: [NEWS, ISSUE]
 tags: [MITRE ATT&CK, Threat Intelligence, Cybersecurity, Supply Chain Attack, Malware, Incident Response, GitHub, Vulnerability]
-pin: True
+pin: False
 ---
 
 ## Major Supply Chain Attack on Nx: Technical Analysis
