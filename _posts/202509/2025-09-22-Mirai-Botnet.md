@@ -4,7 +4,7 @@ description: >-
     An overview of the Mirai Botnet, its functionality, and its impact on cybersecurity.
 author: anorak
 date: 2025-09-20 00:10:00 +0530
-categories: [NEWS, ISSUE]
+categories: [GUIDE, CYBERSECURITY]
 tags: [  Cybersecurity,   Malware, DDoS, IoT, Botnet, Threat Intelligence, Incident Response, Vulnerability]
 pin: True
 ---
