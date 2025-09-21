@@ -6,7 +6,7 @@ author: anorak
 date: 2025-09-13 00:10:00 +0530
 categories: [NEWS, ISSUE]
 tags: [MITRE ATT&CK, Threat Intelligence, Cybersecurity, Supply Chain Attack, Malware, Incident Response, GitHub, Vulnerability]
-pin: True
+pin: False
 ---
 
 ### Breakdown of the NPM Supply Chain Attack
