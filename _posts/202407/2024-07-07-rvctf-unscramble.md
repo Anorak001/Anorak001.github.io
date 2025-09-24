@@ -199,4 +199,7 @@ pin: false
   ![solution](/assets/img/202406/output.webp){: width="720" height="380" .w-75 .normal}
 
 
+The solution to the challenge is:   Un5cr4mbl3_1s_3a5y_4ft3r_4ll  
 This initial challenge in the RVCTF Preliminary Round was quite tricky, despite being worth 100 points and straight forward. It proved to be more time consuming than the other challenges in the round.
+
+
