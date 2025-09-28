@@ -1,50 +1,89 @@
 ---
-title: "What is the Parkerian Hexad?"
+title: "How DES Encryption Was Broken"
 description: >-
-    An overview of the Parkerian Hexad, its components, and its significance in cybersecurity.
+    A technical overview of the Data Encryption Standard (DES), its vulnerabilities, and how it was ultimately broken.
 author: anorak
 date: 2025-09-27 00:10:00 +0530
-categories: [GUIDE, CYBERSECURITY]
-tags: [  Cybersecurity,    Information Security,   Risk Management]
+categories: [GUIDE, CRYPTOGRAPHY]
+tags: [Cryptography,  Encryption, Security]
 pin: True
 ---
-## Parkerian Hexad: Expanding on CIA
 
-The **Parkerian Hexad** is a security model introduced by Donn B. Parker in 1998 to address the limitations of the traditional CIA triad. While the CIA triad Confidentiality, Integrity, and Availability remains foundational, the Hexad adds three critical attributes: Authenticity, Possession (or Control), and Utility. This broader framework enables a more nuanced and complete analysis of information security threats and controls.
+## How DES Encryption Was Broken
 
-![Parkerian Hexad](/assets/img/202509/hexad.jpg){: .center}
+The **Data Encryption Standard (DES)** was once the cornerstone of symmetric-key cryptography, adopted as a federal standard in 1977. However, over time, advances in computing and cryptanalysis exposed critical weaknesses, leading to its deprecation.
 
-### Technical Breakdown: Parkerian Hexad vs. CIA Triad
+![DES Encryption](/assets/img/202509/des.jpg){: .center}
 
-#### 1. Confidentiality (CIA & Hexad)
-- **Definition:** Protects sensitive information from unauthorized disclosure, whether through interception, eavesdropping, or data leaks.
-- **Technical Example:** Implementing AES-256 encryption for data at rest and TLS for data in transit ensures that only authenticated users or systems can access the plaintext data. Access control lists (ACLs) and role-based access control (RBAC) further restrict data exposure.
+### Technical Overview: What Is DES?
 
-#### 2. Integrity (CIA & Hexad)
-- **Definition:** Ensures that data remains accurate, consistent, and unaltered except by authorized actors.
-- **Technical Example:** Hash functions (e.g., SHA-256) and digital signatures are used to verify file integrity. Version control systems like Git track changes and prevent unauthorized modifications. Database transaction logs and checksums detect and prevent data corruption.
+- **Block Cipher:** DES is a symmetric block cipher that encrypts data in 64-bit blocks using a 56-bit key.
+- **Feistel Structure:** It uses 16 rounds of Feistel network operations, combining substitution and permutation steps.
+- **Widespread Adoption:** DES was widely used in banking, government, and commercial applications for decades.
 
-#### 3. Availability (CIA & Hexad)
-- **Definition:** Guarantees that systems, applications, and data are accessible to authorized users when needed, despite failures or attacks.
-- **Technical Example:** High-availability clusters, load balancers, and distributed denial-of-service mitigation services (like Cloudflare) ensure uptime. Regular backups and disaster recovery plans minimize downtime from hardware failures or ransomware.
+### Why Was DES Considered Secure?
 
-#### 4. Authenticity (Hexad, closely related to Integrity)
-- **Definition:** Confirms the genuineness of data, communications, or users ensuring that entities are who they claim to be and that data originates from a trusted source.
-- **Technical Example:** Public Key Infrastructure enables digital certificates and signatures, verifying the sender of an email or the publisher of a software update. Multi-factor authentication ensures users are legitimate.
+At the time of its adoption, brute-forcing a 56-bit key was computationally infeasible. The algorithm's internal structure was also designed to resist known cryptanalytic attacks of the era.
 
-#### 5. Possession or Control (Hexad)
-- **Definition:** Refers to the physical or logical custody of information, regardless of whether confidentiality is maintained.
-- **Technical Example:** If an attacker copies an encrypted database, they may not break confidentiality, but they have gained possession. Secure key management and hardware security modules help maintain control over cryptographic material. Physical security controls (e.g., biometric locks, surveillance) prevent unauthorized access to hardware.
+### How DES Was Broken
 
-#### 6. Utility (Hexad)
-- **Definition:** Ensures that information is not only available but also usable and valuable for its intended purpose.
-- **Technical Example:** Data encrypted with a lost or corrupted key is technically available but unusable utility is lost. Data format conversions, data cleansing, and ensuring compatibility with applications are all aspects of maintaining utility.
+#### 1. Brute-Force Attacks
 
-### Why the Hexad Matters
+- **Keyspace Limitation:** With only 56 bits of key material, DES has 2⁵⁶ possible keys (~72 quadrillion).
+- **Hardware Advances:** By the late 1990s, specialized hardware made exhaustive key search practical.
+- **Notable Event:** In 1998, the Electronic Frontier Foundation (EFF) built the "DES Cracker," a machine that could search the entire DES keyspace in about 56 hours. Later optimizations reduced this to under 24 hours.
 
-The Parkerian Hexad provides a more granular approach to information security. For example:
-- Possession highlights risks like data exfiltration, even if encryption is strong.
-- Utility addresses scenarios where data is present but unusable, such as corrupted backups or proprietary formats without supporting software.
-- Authenticity is crucial for trust in digital communications and software supply chains.
+#### 2. Cryptanalytic Attacks
 
-By considering all six attributes, security professionals can design controls and incident response plans that address a wider spectrum of threats, from insider attacks and physical theft to data integrity failures and usability issues.
+- **Differential Cryptanalysis:** While DES was designed to resist this attack, later research showed that with enough chosen plaintexts, it could be vulnerable.
+- **Linear Cryptanalysis:** Introduced in the early 1990s, this technique could recover the key faster than brute force, though still requiring vast amounts of data.
+
+#### 3. Real-World Implications
+
+- **Banking and Commerce:** The feasibility of breaking DES meant that sensitive financial transactions were at risk.
+- **Transition to Stronger Algorithms:** The vulnerabilities led to the adoption of Triple DES (3DES) and, eventually, the Advanced Encryption Standard (AES).
+
+### Lessons Learned
+
+- **Key Length Matters:** DES's 56-bit key is now considered far too short for modern security needs.
+- **Moore’s Law:** Advances in hardware continually reduce the time required for brute-force attacks.
+- **Algorithm Agility:** Cryptographic systems must be designed to allow for rapid upgrades as new attacks emerge.
+
+### Demo: Brute-Forcing DES in Python
+
+Below is a simple Python script that demonstrates a brute-force attack on DES. For demonstration, the keyspace is limited to 16 bits (not secure) to keep the runtime reasonable.
+
+```python
+from Crypto.Cipher import DES
+import itertools
+
+def pad(text):
+    while len(text) % 8 != 0:
+        text += b' '
+    return text
+
+# Known plaintext and ciphertext
+plaintext = b"secret!!"
+key = b"key00000"  # 8 bytes (for demo)
+cipher = DES.new(key, DES.MODE_ECB)
+ciphertext = cipher.encrypt(pad(plaintext))
+
+# Brute-force search (only 16 bits for demo)
+def brute_force_des(ciphertext, known_plaintext):
+    for k in range(2**16):
+        test_key = k.to_bytes(2, 'big') + b'\x00'*6
+        test_cipher = DES.new(test_key, DES.MODE_ECB)
+        decrypted = test_cipher.decrypt(ciphertext).strip()
+        if decrypted == known_plaintext:
+            print(f"Key found: {test_key.hex()}")
+            return test_key
+    print("Key not found.")
+
+brute_force_des(ciphertext, plaintext)
+```
+
+> **Note:** Real DES uses a 56-bit key, making brute-force infeasible without massive resources. This demo is for educational purposes only.
+
+### Conclusion
+
+DES played a foundational role in the history of cryptography, but its eventual defeat underscores the importance of strong key management and ongoing cryptanalysis. Today, DES serves as a cautionary tale and a milestone in the evolution of encryption standards.
