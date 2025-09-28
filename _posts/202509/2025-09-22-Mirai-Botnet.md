@@ -6,7 +6,7 @@ author: anorak
 date: 2025-09-20 00:10:00 +0530
 categories: [GUIDE, CYBERSECURITY]
 tags: [  Cybersecurity,   Malware, DDoS, IoT, Botnet, Threat Intelligence, Incident Response, Vulnerability]
-pin: True
+pin: False
 ---
 # Understanding the Mirai Botnet: A Technical Deep Dive
 
