@@ -3,7 +3,7 @@ title: "Discord Data Breach: What You Need to Know"
 description: >-
       A comprehensive overview of the recent Discord data breach, its implications, and steps users can take to protect their information.
 author: anorak
-date: 2025-09-27 00:10:00 +0530
+date: 2025-10-05 03:10:00 +0530
 categories: [NEWS, ISSUE]
 tags: [ Breach,  Data Leak,  Security]
 pin: True
