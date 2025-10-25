@@ -16,7 +16,7 @@ If basic hacking is like picking a lock, **Buffer Overflow Exploitation** is lik
 Why? Because it forces you to understand computer memory, assembly language, and program execution flow—the deep mechanics that underpin nearly all software. It's pure, hands-on exploit development.
  
 
-## What is a Buffer Overflow, Anyway? (The Analogy)
+## What is a Buffer Overflow, Anyway?  
 
 Imagine you have a small coffee cup (the **buffer**) designed to hold 8 ounces. A helpful but careless friend (the vulnerable program) tries to pour 12 ounces of coffee (the **input data**) into it.
 
@@ -28,7 +28,7 @@ In a software program, this adjacent memory often holds critical information, mo
 * **Result:** The program executes the attacker's code instead of its intended next instruction, often leading to a remote shell or gaining full control of the system.
 
  ![Buffer-Overflow](/assets/img/202510/buffer-overflow.png)
-
+    
 ## The Anatomy of an OSCP-Style Exploit 🔬
 
 The OSCP focuses heavily on stack-based buffer overflows, particularly on older 32-bit Windows systems, because they are the cleanest way to teach the core concepts. The process isn't just one step; it's a methodical, six-step dance:
