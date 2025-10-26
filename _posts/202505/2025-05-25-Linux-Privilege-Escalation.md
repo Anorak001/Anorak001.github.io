@@ -16,7 +16,7 @@ For authorized users on Linux, privilege escalation allows elevated access to co
 On Linux, this is typically done via the **sudo (Super User DO) command** that enables condition-based privilege elevation for user accounts. To use sudo privilege elevation, you simply precede the command with sudo, which will then execute the command as a super-user.
 
 An example of using sudo to execute ifconfig as a super-user is below:
-![img](assets/img/202505/1.webp){: .center}
+![img](/assets/img/202505/1.webp){: .center}
 **Using sudo to execute ifconfig as a super-user**
 
 Another common method for authorized users to elevate privileges is via the **setuid or setgid**, a special permission bit set on an executable that will run with elevated privileges such as root when executed.
@@ -32,19 +32,19 @@ On Linux systems, privilege escalation is a technique by which an attacker gains
 But the attacker is always hungry for more. They’re looking for more sensitive data they can resell for profit. They’re looking for access to business-critical applications so they can deploy ransomware, shutdown services, and demand financial payment.
 
 **To be successful, an attacker engages in a variety of strategies to escalate privileges on Linux systems:**
-![img](assets/img/202505/2.webp){: .center}
+![img](/assets/img/202505/2.webp){: .center}
 ### Horizontal vs Vertical Privilege Escalation
 
 - **Vertical privilege escalation**, sometimes referred to as privilege elevation, is when an attacker compromises a user account that has limited shell permissions on a system. They then look for ways to increase their privileges using the same account. For example, they might add the compromised account to sudoers file so they can execute commands as the super-user account or use the special permission bit set by setuid and setgid to execute an executable as a privileged user.
 
 - **Horizontal privilege escalation**, the more common method, is when an attacker gains access to another user on the system with higher privileges than the initial one used to gain their initial shell. With higher level privileges, an attacker can move freely around the network without detection.
-![img](assets/img/202505/3.webp){: .center}
+![img](/assets/img/202505/3.webp){: .center}
 **Horizontal vs Vertical Privilege Escalation AttacksExample Illustration of the difference between vertical and horizontal privilege escalation**
 
 **In this blog, you’ll learn how an attacker escalates privileges on Linux systems using a step-by-step process.** By viewing privilege escalation through the lens of an ethical hacker you’ll learn how attackers exploit system vulnerabilities to gain access to the victim. You’ll also discover opportunities to improve Linux privilege management and security to reduce your risk of a cyber attack.
 
 **For beginners, this blog is a guide to the most common techniques used to elevate privileges on Linux.** Keep reading to learn what you can do to reduce the risks of Linux privilege elevation.
-![img](assets/img/202505/4.gif){: .center}
+![img](/assets/img/202505/4.gif){: .center}
 **Samba ExploitExample of exploiting a known vulnerability in Samba**
 
 An example of elevation of a privilege attack using a Samba exploit resulting in Linux privesc is below using the HackTheBox Platform machine Lame.
@@ -60,7 +60,7 @@ A big difference between Windows and Linux is that Windows was originally planne
 One of the most important files on the Linux system is the **passwd file, located at /etc/passwd**. This file lists all the users known to the system which could also be included in directory services.
 
 If we look inside the passwd file using the “cat” command, we find something like the following:
-![img](assets/img/202505/5.webp){: .center}
+![img](/assets/img/202505/5.webp){: .center}
 **passwd filepasswd file from Solidstate machine on Hackthebox platform**
 
 Each line represents a user on the Linux system.
@@ -80,11 +80,11 @@ Each field is separated using the colon “:” character in which the fields re
 In older Linux systems the password of the user was stored in the /etc/passwd file, however this was deemed insecure and was replaced using the /etc/shadow file. That’s why the password placeholder containing an “x” indicates the password is stored in the /etc/shadow file.
 
 The passwd file is typically readable by all users. For example, if you run the command “ls -la /etc/passwd” you will get output like the following:
-![img](assets/img/202505/6.webp){: .center}
+![img](/assets/img/202505/6.webp){: .center}
 **ls -la commandUsing the ls -la command to view file permissions**
 
 The permissions in the “ls -la” output for the /etc/passwd file show the following format:
-![img](assets/img/202505/7.webp){: .center}
+![img](/assets/img/202505/7.webp){: .center}
 **Permissions rw-r--r--**
 
 The first character “-“ is reserved as a special permission that can vary. Another special permission that can be used here is known as **SUID, GUID or the Sticky Bit**. We will cover the special permission a little bit later.
@@ -113,9 +113,9 @@ So, let’s explain the output from the /etc/passwd file above. It has the follo
 - Group
 
 **passwd access permissions**
-![img](assets/img/202505/8.webp){: .center}
+![img](/assets/img/202505/8.webp){: .center}
 **Special Permissions (first bit in permissions) has the following options:**
-![img](assets/img/202505/9.webp){: .center}
+![img](/assets/img/202505/9.webp){: .center}
 **Special permissions**
 
 - _ - no special permissions set
@@ -125,7 +125,7 @@ So, let’s explain the output from the /etc/passwd file above. It has the follo
 - t – sticky bit set
 
 Next, let’s cover **Access Control Lists or File Attributes on Linux**. These can apply to both directories and files. You can use the “getfacl” command to get the file access control lists for each file. It will display the access permissions defined by the traditional file mode permission bits.
-![img](assets/img/202505/10.webp){: .center}
+![img](/assets/img/202505/10.webp){: .center}
 **getfaclUsing the getfacl to view the file access control lists**
 
 Some common commands used to view or manage access control lists in Linux are:
@@ -137,7 +137,7 @@ Some common commands used to view or manage access control lists in Linux are:
 - chown – change file owner and group
 
 Users can also be a member of a group on Linux systems, and this is defined in the **/etc/group file** in which an example is shown below:
-![img](assets/img/202505/11.webp){: .center}
+![img](/assets/img/202505/11.webp){: .center}
 **/etc/group file**
 
 Group format is as follows:
@@ -148,11 +148,11 @@ Group format is as follows:
 - Members of the group
 
 Let’s talk about the **/etc/shadow file, along with the format and how it’s used.**
-![img](assets/img/202505/12.webp){: .center}
+![img](/assets/img/202505/12.webp){: .center}
 **/etc/shadow fileroot is the only user who can read and write to the shadow file**
 
 The shadow file is one of the most protected files on a Linux system as it contains the encrypted password used by all known users to log on to the system. It stores the user account information along with details on password settings. **If the shadow file can be accessed by an unauthorized user, then attackers can attempt to crack the hash to find the clear text password used.** If the password is human-created, this method is often successful for an attacker.
-![img](assets/img/202505/13.webp){: .center}
+![img](/assets/img/202505/13.webp){: .center}
 **/etc/shadow file**
 
 Like the passwd file, each field is separated by a colon “:” and the format of the shadow file is the following:
@@ -182,9 +182,9 @@ Common commands used to manage users on Linux systems are the following:
 If you want to read more details on how to use each of the commands noted so far, including a full description along with command options, refer to the Linux man command, which is used to access the Linux man pages. An example is below for the command “man adduser”:
 
 **output when using "man adduser" command The output when using "man adduser" command**
-![img](assets/img/202505/14.webp){: .center}
+![img](/assets/img/202505/14.webp){: .center}
 Below is an example of using “mkpasswd” to create an encrypted password with a SHA-512 hash. This can sometimes be helpful when you want to add a user with password directly in the passwd file or if you have permissions to modify the shadow file. As you can see, the password starts with $6$, which indicates that this password is encrypted with SHA-512 followed by the hash salt. Then the password hash is after the 3rd “$” sign.
-![img](assets/img/202505/15.webp){: .center}
+![img](/assets/img/202505/15.webp){: .center}
 **mkpasswd**
 
 Ok, now you have a basic understanding of Linux access controls and permissions. Let’s move on to common Linux privilege escalation techniques used by cybercriminals.
@@ -194,7 +194,7 @@ Ok, now you have a basic understanding of Linux access controls and permissions.
 To target privileged accounts, cyber attackers use common steps and proven techniques to identify system misconfigurations, vulnerabilities, overprivileged users, and weak credentials.
 
 **Example of steps an attacker might take**
-![img](assets/img/202505/16.webp){: .center}
+![img](/assets/img/202505/16.webp){: .center}
 Some of the most common privileged accounts on Linux systems that attackers go after include:
 
 - The King of Linux “root”
@@ -248,13 +248,13 @@ Some of the enumeration information collected includes:
 - User information
 - Privileged access
 - Environmental information
-![img](assets/img/202505/17.gif){: .center}
+![img](/assets/img/202505/17.gif){: .center}
 
 ### LinPEAS - Linux Privilege Escalation Awesome Script
 
 LinPEAS is a script that searches for possible paths to escalate privileges on Linux/Unix*/MacOS hosts. The checks are explained on book.hacktricks.xyz.
 
-![img](assets/img/202505/18.gif){: .center}
+![img](/assets/img/202505/18.gif){: .center}
 
 We recently had the awesome Carlos Polop, author of linPEAS and Hacktricks.xyz, on the 401 Access Denied podcast to discuss winPEAS, linPEAS and privilege escalation. Make sure to check out the podcast and Carlos’s Hacktricks book, as it goes into full detail on many of the techniques used in this blog.
 
@@ -265,7 +265,7 @@ These Linux enumeration tools are designed for penetration testing and CTFs.
 This project was inspired by https://github.com/rebootuser/LinEnum and uses many of its tests.
 
 Unlike LinEnum, lse tries to gradually expose the information depending on its importance from a privesc point of view.
-![img](assets/img/202505/19.gif){: .center}
+![img](/assets/img/202505/19.gif){: .center}
 
 ### Linux Exploit Suggester 2
 
@@ -280,7 +280,7 @@ Key improvements include:
 - And more to come!
 
 This script is extremely useful for quickly finding privilege escalation vulnerabilities both in on-site and exam environments.
-![img](assets/img/202505/20.gif){: .center}
+![img](/assets/img/202505/20.gif){: .center}
 
 ## Examples of Linux privileges elevation techniques
 
@@ -297,7 +297,7 @@ Some common, recent Linux Kernel exploits, including **Dirty c0w or nelson (Full
 Another exploit is known as the Full Nelson, - sometimes the Half Nelson. This name is attributed to the researcher who discovered these three vulnerabilities. It’s a much older, local privilege escalation technique and, another way to get to root. Many unpatched systems are still vulnerable to this technique.
 
 The following is an example of using the Dirty c0w vulnerability:
-![img](assets/img/202505/21.gif){: .center}
+![img](/assets/img/202505/21.gif){: .center}
 
 ### 2. Programs or services running as root
 
@@ -312,11 +312,11 @@ An example of this is a script that cleans up a /tmp folder that’s running und
 Running LinEnum, the Linux enumeration script discovers a world-writable file owned by the root user.
 
 **Linux Enumeration Script**
-![img](assets/img/202505/22.webp){: .center}
+![img](/assets/img/202505/22.webp){: .center}
 When looking at the content it's a simple Python script that cleans up a temp directory. Because we can write to this file we can edit and get a reverse shell under the root user.
 
 An example of using this technique is below:
-![img](assets/img/202505/23.gif){: .center}
+![img](/assets/img/202505/23.gif){: .center}
 **Linux PrivEsc using Hackthebox platform SolidState machineExample of Linux PrivEsc using Hackthebox platform SolidState machine**
 
 ### 4. Installed software
@@ -336,7 +336,7 @@ If an executable has been configured with the special permission bit using the s
 If a user is part of the sudoers file and is permitted to execute certain binaries or executables using sudo, then in many situations it might be possible to abuse the sudo permissions and gain access to root. **Gtfobins is an excellent resource to look for ways to bypass security restrictions on misconfigured systems.**
 
 Below is an example using hackthebox platform Sunday Machine. It shows how a user with sudo permissions to execute wget can overwrite a file and then abuse sudo permissions to elevate to the root super-user.
-![img](assets/img/202505/24.webp){: .center}
+![img](/assets/img/202505/24.webp){: .center}
 **Abusing sudo permissions**
 
 Other common methods used to escalate privileges on Linux include:

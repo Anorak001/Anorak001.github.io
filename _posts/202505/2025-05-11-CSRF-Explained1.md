@@ -15,7 +15,7 @@ pin: False
 ## Summary
 
 Cross-Site Request Forgery (CSRF) is an attack that forces an end user to execute unintended actions on a web application in which they are currently authenticated. With a little social engineering help (like sending a link via email or chat), an attacker may force the users of a web application to execute actions of the attacker’s choosing. A successful CSRF exploit can compromise end user data and operation when it targets a normal user. If the targeted end user is the administrator account, a CSRF attack can compromise the entire web application.
-![img](assets/img/202505/Session_riding.GIF){: width="800" height="800"  .center}
+![img](/assets/img/202505/Session_riding.GIF){: width="800" height="800"  .center}
 ## Key Points of CSRF Vulnerability
 
 - Web browser behavior regarding the handling of session-related information such as cookies and HTTP authentication information.

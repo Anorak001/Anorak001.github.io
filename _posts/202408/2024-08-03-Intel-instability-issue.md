@@ -12,7 +12,7 @@ pin: false
 ## The Issue:
 
 
-![Intel inside](assets/img/202408/intel.jpg){: width="500" height="350" .w-50 .right}
+![Intel inside](/assets/img/202408/intel.jpg){: width="500" height="350" .w-50 .right}
 Over the last several months, there have been ongoing problems with instability issues on some desktop 13th and 14th Gen Intel CPUs.This issue was first noticed by the gaming commmunity and the issue was mistook as a issue caused due to overheating during intensive gameplay.The problem escalated to such a point due to the company's negligence even though the problem has persisted for over one year.
 The affected processors have resulted in crashes and freezes in games and programs, forcing even game developers to consider AMD-based systems.
 Last week we saw Alderon Games implementing an in-game warning window to notify users about the cause of the crashes.

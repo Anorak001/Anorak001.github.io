@@ -9,7 +9,8 @@ tags: [Cybersecurity, Security, OSCP]
 pin: True
 --- 
 
- ## Beyond the Basics: Exploiting the Stack with Buffer Overflows  
+
+## Beyond the Basics: Exploiting the Stack with Buffer Overflows  
 
 If basic hacking is like picking a lock, **Buffer Overflow Exploitation** is like having the blueprints for the building's support structure and knowing *exactly* where to plant the explosives. It's one of the most fundamental, yet advanced, topics in the **OSCP (Offensive Security Certified Professional)** syllabus, serving as a rite of passage for every serious offensive security practitioner.
 
