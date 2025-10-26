@@ -6,7 +6,7 @@ author: anorak
 date: 2025-10-25 03:10:00 +0530
 categories: [ GUIDE, CYBERSECURITY]
 tags: [Cybersecurity, Security, OSCP]
-pin: False
+pin: True
 --- 
 
  ## Beyond the Basics: Exploiting the Stack with Buffer Overflows  
