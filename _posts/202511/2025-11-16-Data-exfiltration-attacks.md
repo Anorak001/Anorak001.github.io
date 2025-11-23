@@ -6,7 +6,7 @@ author: anorak
 date: 2025-11-16 03:10:00 +0530
 categories: [ GUIDE, CYBERSECURITY]
 tags: [Cybersecurity, Security,  VNC, Data-Exfiltration ]
-pin: True
+pin: False
 ---
  
 
