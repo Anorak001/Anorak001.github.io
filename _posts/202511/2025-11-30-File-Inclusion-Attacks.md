@@ -15,13 +15,8 @@ Web applications often need to dynamically load content—templates, language fi
 
 **File Inclusion vulnerabilities** allow an attacker to trick a web server into including files that were never meant to be accessed. In the best case, they read sensitive configuration files. In the worst case, they achieve **Remote Code Execution (RCE)**.
 
-> **The "Too Long; Didn't Read":**
->
->   * **LFI (Local File Inclusion):** Read files *on the server itself*.
->   * **RFI (Remote File Inclusion):** Load malicious files from *your own server*.
->   * **Impact:** Information disclosure, source code leaks, and full system compromise.
-
  
+
 
 ## The Theory: How Inclusion Works
 
@@ -39,7 +34,12 @@ The developer expects users to request `?page=home` or `?page=about`. The server
 **The Flaw:** The developer trusts user input. An attacker can manipulate the `page` parameter to load *any* file the web server process can read.
 
  
+### Types of File Inclusion Attacks
+>   * **LFI (Local File Inclusion):** Read files *on the server itself*.
+>   * **RFI (Remote File Inclusion):** Load malicious files from *your own server*.
+>   * **Impact:** Information disclosure, source code leaks, and full system compromise.
 
+ 
 ## Local File Inclusion (LFI)
 
 LFI allows you to read files that exist on the target server. This is the more common and frequently exploitable variant.
