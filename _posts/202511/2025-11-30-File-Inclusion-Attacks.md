@@ -1,12 +1,12 @@
 ---
 title: " File Inclusion Vulnerabilities: LFI & RFI Explained "
 description: >-
-        A practical guide to Local and Remote File Inclusion attacks—understand how they work, how to exploit them, and how to defend against them.
+        A practical guide to Local and Remote File Inclusion attacks
 author: anorak
 date: 2025-11-30 03:10:00 +0530
 categories: [ GUIDE, CYBERSECURITY]
 tags: [Cybersecurity, Security, LFI, RFI, OSCP, Web-Security, Penetration-Testing ]
-pin: False
+pin: True
 ---
 
 ## Introduction: The Dangerous Include
