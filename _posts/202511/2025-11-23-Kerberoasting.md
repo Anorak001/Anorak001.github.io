@@ -6,7 +6,7 @@ author: anorak
 date: 2025-11-23 03:10:00 +0530
 categories: [ GUIDE, CYBERSECURITY]
 tags: [Cybersecurity, Security,   Kerberoasting, OSCP, Active-Directory ]
-pin: True
+pin: False
 ---
 
 ## Introduction: 
