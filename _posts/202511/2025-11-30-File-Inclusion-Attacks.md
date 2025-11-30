@@ -43,7 +43,7 @@ The developer expects users to request `?page=home` or `?page=about`. The server
 ## Local File Inclusion (LFI)
 
 LFI allows you to read files that exist on the target server. This is the more common and frequently exploitable variant.
-
+![ Local File Inclusion  ](/assets/img/202511/lfi.png){: .center}
 ### Basic LFI: Reading /etc/passwd
 
 The classic proof-of-concept. If you can read `/etc/passwd`, you have confirmed LFI.
