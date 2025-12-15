@@ -6,7 +6,7 @@ author: anorak
 date: 2025-11-30 03:10:00 +0530
 categories: [ GUIDE, CYBERSECURITY]
 tags: [Cybersecurity, Security, LFI, RFI, OSCP, Web-Security, Penetration-Testing ]
-pin: True
+pin: False
 ---
 
 ## Introduction: The Dangerous Include
