@@ -42,7 +42,7 @@ You do not need special hacker tools to use ADS. You just need the standard Wind
 
 We use the colon operator (`:`) to target a stream.
 
-```cmd
+``` 
 type malware.exe > readme.txt:hidden.exe
 
 ```
@@ -56,7 +56,7 @@ You cannot simply double-click the stream. Windows Explorer doesn't know how to 
 
 * **Method A (Wmic):** The Windows Management Instrumentation Command-line.
 
-```cmd
+``` 
 wmic process call create "C:\path\to\readme.txt:hidden.exe"
 
 ```
@@ -64,7 +64,7 @@ wmic process call create "C:\path\to\readme.txt:hidden.exe"
 
 * **Method B (Rundll32):** If the hidden file is a DLL.
 
-```cmd
+``` 
 rundll32 readme.txt:hidden.dll,EntryFunction
 
 ```
@@ -81,7 +81,7 @@ Standard `dir` commands lie. Windows Explorer lies. So how do you find them?
 
 The standard directory listing command has a secret switch.
 
-```cmd
+``` 
 dir /r
 
 ```
@@ -111,7 +111,7 @@ This command lists all streams associated with the file object.
 
 Microsoft provides a tool called `streams.exe` in the Sysinternals suite specifically to hunt and delete these streams recursively.
 
-```cmd
+``` 
 streams -d -s C:\Users\Target\Documents
 
 ```
