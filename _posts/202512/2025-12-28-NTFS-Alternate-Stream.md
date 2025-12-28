@@ -55,6 +55,7 @@ type malware.exe > readme.txt:hidden.exe
 You cannot simply double-click the stream. Windows Explorer doesn't know how to show it. You must invoke it via the command line or system tools.
 
 * **Method A (Wmic):** The Windows Management Instrumentation Command-line.
+
 ```cmd
 wmic process call create "C:\path\to\readme.txt:hidden.exe"
 
@@ -62,6 +63,7 @@ wmic process call create "C:\path\to\readme.txt:hidden.exe"
 
 
 * **Method B (Rundll32):** If the hidden file is a DLL.
+
 ```cmd
 rundll32 readme.txt:hidden.dll,EntryFunction
 
