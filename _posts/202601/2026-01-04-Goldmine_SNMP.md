@@ -11,10 +11,6 @@ pin: True
  
  
 
-# Security Not My Problem: Exploiting SNMP for Massive Reconnaissance
-
- 
-
 ## Introduction: The Overlooked Goldmine
 
 When performing a penetration test or taking the CEH exam, most students rush to scan for web servers (Port 80/443) or SMB shares (Port 445). However, there is a quiet service running on UDP Port 161 that often leaks more information than the rest of the network combined.
