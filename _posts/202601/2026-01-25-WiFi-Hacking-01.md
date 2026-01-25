@@ -34,7 +34,7 @@ When your phone connects to Wi-Fi, it engages in a conversation with the Router 
 ## The Tool: The Aircrack-ng Suite
 
 In the CEH exam and Kali Linux, `aircrack-ng` is the Swiss Army Knife of Wi-Fi hacking. It is not one tool, but a suite of them.
-![WIFI Hacking using aircrack-ng](/assets/img/202601/wifi.png){: .center}
+![WIFI Hacking using aircrack-ng](/assets/img/202601/WIFI.png){: .center}
 
 ### Step 1: Monitor Mode (The Ear)
 
