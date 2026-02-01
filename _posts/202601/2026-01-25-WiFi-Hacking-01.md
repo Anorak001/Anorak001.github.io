@@ -6,7 +6,7 @@ author: anorak
 date: 2026-01-25 03:10:00 +0530
 categories: [ GUIDE, CYBERSECURITY]
 tags: [Cybersecurity, WiFi, WPA2, Hacking, CEH ] 
-pin: True
+pin: False
 ---  
  
 ## Introduction: The Air is Free
