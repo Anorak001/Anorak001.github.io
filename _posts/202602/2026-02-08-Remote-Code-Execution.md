@@ -6,7 +6,7 @@ author: anorak
 date: 2026-02-08 03:10:00 +0530
 categories: [ GUIDE, CYBERSECURITY]
 tags: [Cybersecurity, CEH, Attack, RCE]  
-pin: True
+pin: False
 ---  
  
 ## Introduction: When Websites Talk to the System
