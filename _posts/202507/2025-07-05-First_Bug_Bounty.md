@@ -4,7 +4,7 @@ description: >-
     How I found missing SRI using just curl and how it led to my first valid bug.
 author: anorak
 date: 2025-07-05 04:30:00 +0530
-categories: [NEWS, BUG]
+categories: [LOG]
 tags: [Web Security, Subresource Integrity, Bug Bounty, Reconnaissance, Cybersecurity]
 pin: True
 ---   
