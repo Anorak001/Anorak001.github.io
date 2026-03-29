@@ -6,7 +6,7 @@ author: anorak
 date: 2026-03-22 03:10:00 +0530
 categories: [GUIDE, CYBERSECURITY]
 tags: [Cybersecurity, CEH, Offensive Security, Nmap, Firewall Evasion]
-pin: True
+pin: False
 ---   
 
 By default, Nmap is not a subtle tool. When you run a standard SYN scan (`nmap -sS`), it knocks on thousands of digital doors in seconds. 
