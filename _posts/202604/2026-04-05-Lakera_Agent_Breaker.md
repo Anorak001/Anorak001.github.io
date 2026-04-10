@@ -6,7 +6,7 @@ author: anorak
 date: 2026-04-05 04:30:00 +0530
 categories: [GUIDE, CYBERSECURITY]
 tags: [AI Security, Prompt Injection, Red Teaming, Gandalf, LLM Security]
-pin: True
+pin: False
 ---
 
 ## Introduction
