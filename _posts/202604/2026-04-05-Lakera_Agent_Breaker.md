@@ -278,8 +278,7 @@ My beta testing experience with Gandalf: Agent Breaker has been incredibly valua
 2. **Traditional security measures** often fail against prompt injection
 3. **Context matters** - each application requires tailored approaches
 4. **Defense requires layered approaches** - no single solution works
-
-**Ready to test your AI hacking skills?** Join the challenge when it launches on **August 20, 2025** at [gandalf.lakera.ai/agent-breaker](https://gandalf.lakera.ai/agent-breaker)
+ 
 
  
  
