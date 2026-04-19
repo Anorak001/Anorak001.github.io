@@ -5,7 +5,7 @@ description: >-
 date: 2026-04-12 04:30:00 +0530
 categories: [GUIDE, CYBERSECURITY]
 tags: [ CEH, Active Directory, Lateral Movement, Windows Security]
-pin: True
+pin: False
 ---
 
 We are taught that to log into a computer, we need a password. But computers don't actually like passwords; they like math. 
