@@ -5,7 +5,7 @@ description: >-
 date: 2026-04-26 04:30:00 +0530
 categories: [GUIDE, CYBERSECURITY]
 tags: [ CEH, Security, Windows Security, Privilege Escalation]
-pin: True
+pin: False
 --- 
 
 
