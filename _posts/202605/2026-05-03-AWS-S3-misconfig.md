@@ -5,7 +5,7 @@ description: >-
 date: 2026-05-03 00:30:00 +0530
 categories: [GUIDE, CYBERSECURITY]
 tags: [ CEH, Security, Cloud Security, AWS, Misconfigurations]
-pin: True
+pin: False
 --- 
  
 When companies migrate to the cloud, there is a dangerous assumption that because infrastructure is hosted by Amazon, Microsoft, or Google, it is automatically secure. 
